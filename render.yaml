@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: neural-correct-api
+    env: python
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: cd backend && uvicorn api:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: BEST_MODEL
+        value: modern
+      - key: ALLOWED_ORIGINS
+        value: "*"

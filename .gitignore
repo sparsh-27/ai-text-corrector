@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+backend/venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+config.json
+
+# PyTorch / Transformers / HuggingFace cache
+.cache/
+huggingface/
+
+# Node / React
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+.npm
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+~$*.docx
+
+# Brain / Antigravity IDE local files
+.gemini/

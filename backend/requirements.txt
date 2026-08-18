@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+symspellpy
+textblob
+evaluate
+jiwer
+python-docx
+transformers
+torch
